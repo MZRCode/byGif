@@ -15,9 +15,6 @@ client.events = new Collection();
 client.gifInterval = [];
 client.resimInterval = [];
 
-const { loadEvents } = require('./Handlers/eventHandler');
-loadEvents(client);
-
 client.login(client.config.token);
 
 
